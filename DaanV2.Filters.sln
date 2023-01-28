@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaanV2.Filters", "DaanV2.Fi
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shared", "Shared\Shared.shproj", "{BAF43FC3-A7C5-4722-BA4F-D4CE989B7A91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "Tests\UnitTests\UnitTests.csproj", "{05AA659B-FF4F-423D-A06D-A7516AB299CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{78B65078-8B30-483B-A12F-419F25397737}.Debug|Any CPU.Build.0 = Debug|x86
 		{78B65078-8B30-483B-A12F-419F25397737}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78B65078-8B30-483B-A12F-419F25397737}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05AA659B-FF4F-423D-A06D-A7516AB299CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05AA659B-FF4F-423D-A06D-A7516AB299CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05AA659B-FF4F-423D-A06D-A7516AB299CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05AA659B-FF4F-423D-A06D-A7516AB299CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

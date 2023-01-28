@@ -9,5 +9,25 @@
     <Import_RootNamespace>DaanV2.Filters</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\AsyncFilter\AsyncFilter - Initialize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\AsyncFilter\AsyncFilter - IFilter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\AsyncFilter\AsyncFilter - Variables.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\AsyncFilter\AsyncFilter - Properties.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\BloomFilter\BloomFilter - Generic.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\BloomFilter\BloomFilter - IFilter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\BloomFilter\BloomFilter - Initialize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\BloomFilter\BloomFilter - Has.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\BloomFilter\BloomFilter - Add.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\BloomFilter\BloomFilter - Properties.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\BloomFilter\BloomFilter - Variables.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\ObjectFilter\ObjectFilter - IFilter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\ObjectFilter\ObjectFilter - Variables.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\ObjectFilter\ObjectFilter - Initialize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enumerators\Result\Result.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\IBinarySerializer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\IFilter - Generic.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\IFilter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Static Classes\Constants\Constants.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Static Classes\HashcodeFactory\HashcodeFactory.cs" />
   </ItemGroup>
 </Project>
